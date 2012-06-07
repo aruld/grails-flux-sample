@@ -1,0 +1,12 @@
+h1. Grails Flux Sample App
+
+Example showing how to schedule Flux workflows in a Grails application.
+
+h2. Setup
+
+* Download and Extract Flux from http://flux.ly/download
+* Install flux.jar to your local maven repo: mvn install:install-file -DgroupId=flux -DartifactId=flux -Dversion=7.11.3 -Dpackaging=jar -Dfile=flux.jar
+* git clone https://github.com/aruld/grails-flux-sample.git
+* Configure your database in grails-app/conf/flux.properties
+* grails run-app
+* If you want to deploy a standalone app, you need to copy flux.jar and jdbc driver jar to lib dir.

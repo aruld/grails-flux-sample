@@ -1,0 +1,5 @@
+/target
+/*.iws
+/.settings
+/.DS_Store
+/out/
